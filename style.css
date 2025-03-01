@@ -1,7 +1,7 @@
 body {
     background-color: aqua;
 }
-div {
+.circle {
     background-color: blue;
     width: 200px;
     height: 200px;
@@ -15,10 +15,25 @@ div {
     left: 0;
     margin: auto;
     transition: all 0.5 ease-in-out;
+    
 }
-div:hover {
+.circle:hover {
     background-color: rgb(177, 194, 153);
     outline: 15px solid rgb(177, 194, 153);
-    width: 400px;
-    height: 400px;
+}
+.flex {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.flex-items {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 20px;
+
+}
+.flex-items:hover {
+background-color: #7fde0a;
 }
