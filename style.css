@@ -25,11 +25,12 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
+    padding-top: 500px;
 }
 .flex-items {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: #ccc;
     margin: 20px;
 
