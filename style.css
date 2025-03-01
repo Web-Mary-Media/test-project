@@ -1,0 +1,24 @@
+body {
+    background-color: aqua;
+}
+div {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    outline: 15px solid blue;
+    outline-offset: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    transition: all 0.5 ease-in-out;
+}
+div:hover {
+    background-color: rgb(177, 194, 153);
+    outline: 15px solid rgb(177, 194, 153);
+    width: 400px;
+    height: 400px;
+}
